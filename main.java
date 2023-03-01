@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main {
+public class main {
   private static int search(int[] arr, int left, int right, int key){
     if (right >= left) {
       int mid = left + (right - left) / 2;
